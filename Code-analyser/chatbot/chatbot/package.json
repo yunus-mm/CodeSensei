@@ -1,0 +1,33 @@
+{
+  "name": "code-analyzer-chatbot",
+  "version": "1.0.0",
+  "description": "MERN application for code complexity analysis and AI chatbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "express",
+    "mongodb",
+    "react",
+    "code-analysis"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^7.6.3",
+    "nodemailer": "^6.9.12"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.10"
+  }
+}
